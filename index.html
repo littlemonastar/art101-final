@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>KATHARSIS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">KATHARSIS</h1>
+    <h2 class="description">Katharsis/Catharsis is to release your repressed emotions and experiences.
+      Here is a place to share the hardest thing you ever had to go through, how you were feeling about it at that time, and how you dealt/are dealing with it. It will be not only a release of your emotions but also a hint for those who have the same
+      situation.
+      <br><br>
+    </h2>
+    <h3 class="rule">
+      【 rule 】<br>
+      1. Do not share anything that others can identify individuals.<br>
+      2. You don't need to share your name.<br>
+      3. 400 characters maximum.
+    </h3>
+
+  </header>
+  <main>
+    <form class="sss-form">
+      <div class="error-message"></div>
+      <label for="name">Name</label>
+      <input class="u-full-width" type="text" id="name" name="name">
+      <label for="content">Comment</label>
+      <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+      <button class="button-sending">SHARE YOUR STORY</button>
+    </form>
+    <div class="ssss">
+
+    </div>
+    <div class="button-container">
+      <!-- <button id="loadMoreButton" class="button-primary" style="visibility: hidden">Load More ssss</button> -->
+      <p id="loadMore">Loading...</p>
+    </div>
+    <div class="loading">
+      <img src="loading.gif" alt="">
+    </div>
+  </main>
+  <script src="client.js"></script>
+</body>
+
+</html>
